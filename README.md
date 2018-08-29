@@ -16,7 +16,7 @@
 <hr>
 <h2><u>Docker Commands</u></h2>
 
-`docker container run --publish 80:80 nginx`
-
-Unable to find image 'nginx:latest' locally
-latest: Pulling from library/nginx
+<div>docker container run --publish 80:80 nginx</div>
+<div>docker container run --publish 80:80 --detach nginx (keeps container running in the background, provides unique id printed in the console)</div>
+<div>docker container ls (lists all containers)</div>
+<div>docker container stop 3432... (first few numbers of the id, stops the container from running)</div>
