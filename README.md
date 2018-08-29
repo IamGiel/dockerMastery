@@ -64,12 +64,12 @@
 <ul>
     <li>
         <h3>running mysql</h3>
-        <h3><u>docker run --name alpha-giel -e MYSQL_ROOT_PASSWORD=yourPassword -d mysql</u></h3>
+        <h4><u>docker run --name alpha-giel -e MYSQL_ROOT_PASSWORD=yourPassword -d mysql</u></h4>
     </li>
 </ul>
 <ul>
     <li>
         <h3>running nginx</h3>
-        <h3><u>docker container run --publish 80:80 --detach --name alphagiel nginx</u></h3>
+        <h4><u>docker container run --publish 80:80 --detach --name alphagiel nginx</u></h4>
     </li>
 </ul>
