@@ -22,3 +22,5 @@
 <div><u>docker container stop 3432...</u> (first few numbers of the id, stops the container from running)</div>
 <div><u>docker container run --publish 80:80 --detach --name alphagiel nginx</u> (name your container)</div>
 <div><u>docker container logs alphagiel</u> (logs)</div>
+<div><u>docker container rm 123... </u> (delete/remove a container, but will not delete a running container)</div>
+<div><u>docker container rm -f 268... </u> (-forces delete/remove a container)</div>
