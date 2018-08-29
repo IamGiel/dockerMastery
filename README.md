@@ -97,10 +97,6 @@
 
 <ul>
     <li>
-        <h4>`docker container inspect mysql</h4>
-        <div>returns a json</div>     
-    </li>
-    <li>
         <div>`docker container run -it` - starts new container interactively</div>     
     </li>
 </ul>
