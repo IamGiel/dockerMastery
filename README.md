@@ -16,7 +16,9 @@
 <hr>
 <h2><u>Docker Commands</u></h2>
 
-<div>docker container run --publish 80:80 nginx</div>
-<div>docker container run --publish 80:80 --detach nginx (keeps container running in the background, provides unique id printed in the console)</div>
-<div>docker container ls (lists all containers)</div>
-<div>docker container stop 3432... (first few numbers of the id, stops the container from running)</div>
+<div><u>docker container run --publish 80:80 nginx</u></div>
+<div><u>docker container run --publish 80:80 --detach nginx</u> (keeps container running in the background, provides unique id printed in the console)</div>
+<div><u>docker container ls</u> (lists all containers)</div>
+<div><u>docker container stop 3432...</u> (first few numbers of the id, stops the container from running)</div>
+<div><u>docker container run --publish 80:80 --detach --name alphagiel nginx</u> (name your container)</div>
+<div><u>docker container logs alphagiel</u> (logs)</div>
