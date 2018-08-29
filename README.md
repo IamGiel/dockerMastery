@@ -82,11 +82,25 @@
 
 <ul>
     <li>
-        <h4>`docker container inspect mysql<`/h4>
+        <h4>`docker container inspect mysql</h4>
         <div>returns a json</div>     
     </li>
     <li>
         <h4>`docker container stats` or `docker container stats --help`</h4>
         <div>shows the list of containers and the CPU usage or a view of streaming live performance data</div>     
+    </li>
+</ul>
+<!--  -->
+<br>
+<hr>
+<h2><u>Getting a Shell inside Container</u></h2>
+
+<ul>
+    <li>
+        <h4>`docker container inspect mysql</h4>
+        <div>returns a json</div>     
+    </li>
+    <li>
+        <div>`docker container run -it` - starts new container interactively</div>     
     </li>
 </ul>
