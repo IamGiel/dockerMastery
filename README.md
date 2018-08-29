@@ -24,3 +24,22 @@
 <div><u>docker container logs alphagiel</u> (logs)</div>
 <div><u>docker container rm 123... </u> (delete/remove a container, but will not delete a running container)</div>
 <div><u>docker container rm -f 268... </u> (-forces delete/remove a container)</div>
+
+<br>
+<hr>
+<h2><u>What Happens when a docker container runs?</u></h2>
+
+<ul>
+    <li>
+        <h3>It looks for the image that we want to run locally in image cache, doesnt find anything...</h3>
+    </li>
+    <li>
+        <h3>Then looks at remote page repository ( by default: docker hub )</h3>
+    </li>
+    <li>
+        <h3>downloads latest version</h3>
+    </li>
+    <li>
+        <h3>Creates new container base on that image and prepares to start</h3>
+    </li>
+</ul>
