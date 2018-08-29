@@ -14,7 +14,7 @@
 
 <br>
 <hr>
-<h2><u>Docker Commands</u></h2>
+<h2><u>Often Used Docker Commands</u></h2>
 
 <div><u>docker container run --publish 80:80 nginx</u></div>
 <div><u>docker container run --publish 80:80 --detach nginx</u> (keeps container running in the background, provides unique id printed in the console)</div>
@@ -59,17 +59,19 @@
 
 <br>
 <hr>
-<h2><u>Activity Commands running images with multiple containers</u></h2>
+<h2><u>Running Multip Containers</u></h2>
 
 <ul>
     <li>
         <h3>running mysql</h3>
         `docker run --name alpha-giel -e MYSQL_ROOT_PASSWORD=yourPassword -d mysql`
     </li>
-</ul>
-<ul>
     <li>
         <h3>running nginx</h3>
         `docker container run --publish 80:80 --detach --name alphagiel nginx`
+    </li>
+    <li>
+        <h3>running httpd</h3>
+        `docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4`
     </li>
 </ul>
