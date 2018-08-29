@@ -11,7 +11,7 @@
         <h3>Container is the running instance of that image.</h3>
     </li>
 </ul>
-
+<!--  -->
 <br>
 <hr>
 <h2><u>Often Used Docker Commands</u></h2>
@@ -27,7 +27,7 @@
 <div><u>docker container rm 123... </u> (delete/remove a container, but will not delete a running container)</div>
 <div><u>docker container rm -f 268... </u> (-forces delete/remove a container)</div>
 <div><u>ps aux | grep nameOfwhatYouWantTofilter </u> (filters a name)</div>
-
+<!--  -->
 <br>
 <hr>
 <h2><u>What Happens when a docker container runs?</u></h2>
@@ -56,7 +56,7 @@
         <u>docker container run --publish 80:80 --name alphagiel -d nginx</u>
     </li>
 </ul>
-
+<!--  -->
 <br>
 <hr>
 <h2><u>Running Multip Containers</u></h2>
@@ -73,5 +73,20 @@
     <li>
         <h3>running httpd</h3>
         `docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4`
+    </li>
+</ul>
+<!--  -->
+<br>
+<hr>
+<h2><u>Whats going on in Containers?</u></h2>
+
+<ul>
+    <li>
+        <h4>`docker container inspect mysql<`/h4>
+        <div>returns a json</div>     
+    </li>
+    <li>
+        <h4>`docker container stats` or `docker container stats --help`</h4>
+        <div>shows the list of containers and the CPU usage or a view of streaming live performance data</div>     
     </li>
 </ul>
